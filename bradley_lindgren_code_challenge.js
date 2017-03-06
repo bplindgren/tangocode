@@ -83,7 +83,7 @@ function intersect(rect1, rect2) {
 //   var h = 7
 //   var letters = ["a", "c", "d", "e", "g", "i", "l", "m", "n", "o", "p", "r", "s", "t", "u", "w"]
 
-//   for (var i = 0;, i < str.length; i++) {
+//   for (var i = 0; i < str.length; i++) {
 //     var letter = str[i]
 //     var index = letters.indexOf(letter)
 //     h = (h * 37) + index
@@ -112,3 +112,10 @@ function assignment3num(num) {
 // to be divided by 37 and fed back into the loop. The Math.floor() function is used to ensure that an integer
 // is fed back into the loop, rather than a float. The loop continues until the num is equal to 7 or less,
 // then 'str' is returned.
+
+console.log(assignment3('leepdag'))
+console.log(assignment3num(680131662011))
+
+console.log(assignment3('correct'))
+console.log(assignment3num(667734139064))
+
